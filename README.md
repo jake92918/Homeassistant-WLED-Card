@@ -10,7 +10,18 @@ First of all big thanks to [Aircoookie](https://github.com/Aircoookie) and his i
 
 2. Clone repo and put it under www/wled_control/
 
-2. Add this to ressources in configuration/lovelace using the ui
+2. Add  to resources in configuration/lovelace using the ui
+
+````
+url: /local/wled_control/wled_control.js
+type: Javascript Module
+
+url: /local/wled_control/static/wled.css
+type: Stylesheet
+
+url: https://cdn.jsdelivr.net/npm/tingle.js@0.15.3/dist/tingle.min.css
+type: Stylesheet
+````
 
 ![Test](https://raw.githubusercontent.com/jake92918/Homeassistant-WLED-Card/master/example.png)
 
