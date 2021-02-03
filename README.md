@@ -10,7 +10,9 @@ First of all big thanks to [Aircoookie](https://github.com/Aircoookie) and his i
 
 2. Clone repo and put it under www/wled_control/
 
-2. Add this to ressources in config/lovelace.ui.yaml
+2. Add this to ressources in configuration/lovelace using the ui
+
+![Test](https://raw.githubusercontent.com/jake92918/Homeassistant-WLED-Card/master/example.png)
 
 3. Add the custom card like this
 
